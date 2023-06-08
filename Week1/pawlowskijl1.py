@@ -7,7 +7,7 @@ df = pd.read_json("autos.json")
 
 def CalcFuelEcon(carSelection, df, percentCity):
     pass
-    pass
+    
 #Print small summary of DF
 print(df[["make","drive-wheels", "city-mpg", "highway-mpg"]].to_markdown())
 
