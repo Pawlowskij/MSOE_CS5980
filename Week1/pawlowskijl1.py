@@ -1,3 +1,7 @@
+# Week 1 project for calculating a selected car's fuel economy
+# given a .json list then compare it to all indices of the df
+# https://github.com/Pawlowskij/MSOE_CS5980
+
 import pandas as pd
 
 
@@ -64,8 +68,8 @@ for i in range(total_car_indices+1):
     total_df_mpg += calculate_fuel_econ(i,df,percent_city)
     # print(total_df_mpg)
     
-total_df_mpg = round(total_df_mpg/(total_car_indices+1),2)
-df_total_mpg = round(total_df_mpg,2)
+df_total_mpg = round(total_df_mpg/(total_car_indices+1),2)
+
 
 print("\nTotal DF Combined MPG: ",df_total_mpg)
 print("Selected Car's Combined MPG: ",selected_car_total_mpg)
