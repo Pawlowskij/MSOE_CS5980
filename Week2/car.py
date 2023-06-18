@@ -1,21 +1,11 @@
-
-# Create car class with a nickname set to None
-
-
+# Create car class that stores all information about a car with a nickname set to None (2)
 class Car():
-    car_nickname = None
-    
-#     def __init__(self, aspiration):
-#         
-#         self.aspiration = aspiration
-
-        
     
     def __init__(self, aspiration, body_style, city_mpg, compression_ratio, curb_weight, drive_wheels,
                  engine_location, engine_size, engine_type, fuel_system, fuel_type, height,
                  highway_mpg, horsepower, length, make, normalized_losses, num_of_cylinders,
                  num_of_doors, peak_rpm, price, stroke, symboling, wheel_base, width):
-         
+    
         self.aspiration = aspiration
         self.body_style = body_style
         self.city_mpg = city_mpg
@@ -42,4 +32,4 @@ class Car():
         self.wheel_base = wheel_base
         self.width = width
         self.car_nickname = None
-#         
+    
