@@ -1,5 +1,5 @@
 # Create car class that stores all information about a car with a nickname set to None (2)
-class Car():
+class Car:
     
     def __init__(self, aspiration, body_style, city_mpg, compression_ratio, curb_weight, drive_wheels,
                  engine_location, engine_size, engine_type, fuel_system, fuel_type, height,
